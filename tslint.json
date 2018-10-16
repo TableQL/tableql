@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "rules": {
+    "quotemark": [true, "single"],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "member-access": [true, "no-public"],
+    "no-trailing-whitespace": [true, "ignore-blank-lines", "ignore-comments"],
+    "no-bitwise": false,
+    "max-classes-per-file": false,
+    "no-object-literal-type-assertion": false,
+    "ban-comma-operator": false
+  }
+}
