@@ -1,4 +1,4 @@
-import { Where, alwaysTrue } from './Where';
+import { Where, alwaysTrue } from '@tableql/where';
 import { Collection } from './Collection';
 
 /**

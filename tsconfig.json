@@ -2,16 +2,20 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
+    "declaration": true,
     "moduleResolution": "node",
-    "rootDir": "./src",
-    "outDir": "./dist",
     "strict": true,
-    "importHelpers": false,
-    "lib": ["esnext.asynciterable", "es2017"],
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "baseUrl": "./packages",
+    "composite": true,
+    "paths": {
+      "@tableql/*": ["./*/src"]
+    },
+    "lib": ["dom", "esnext.asynciterable", "es2017"],
   },
   "exclude": [
-    "node_modules",
-    "dist"
-  ]
+    "**/node_modules",
+    "**/lib",
+    "**/__tests__"
+  ],
 }

@@ -1,4 +1,4 @@
-import { MutableCollection } from '../../collection';
+import { MutableCollection } from '../../../../collection/src';
 import { Table } from '../../table';
 import { GraphQLFieldResolver } from 'graphql';
 import { Tables } from './Tables';

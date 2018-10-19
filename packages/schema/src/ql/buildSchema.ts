@@ -1,7 +1,7 @@
-import { MutableCollection } from '../collection/MutableCollection';
+import { MutableCollection } from '../../../collection/src/MutableCollection';
 import { Table, LocalTable, HitPolicy } from '../table';
 import { GraphQLSchema } from 'graphql';
-import { LocalMutableCollection } from '../collection/LocalMutableCollection';
+import { LocalMutableCollection } from '../../../collection/src/LocalMutableCollection';
 import { Query } from './resolvers/Query';
 import { Mutation } from './resolvers/Mutation';
 import { buildQueryType } from './buildQueryType';

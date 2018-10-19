@@ -1,5 +1,5 @@
 import { AbstractCollection } from './AbstractCollection';
-import { Where } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * An in-memory collection.

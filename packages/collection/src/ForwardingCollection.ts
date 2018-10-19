@@ -1,6 +1,6 @@
 import { AbstractCollection } from './AbstractCollection';
 import { Collection } from './Collection';
-import { Where } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * A collection that forwards all its method calls to another collection.

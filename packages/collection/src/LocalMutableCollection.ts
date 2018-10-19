@@ -1,6 +1,6 @@
 import { MutableCollection } from './MutableCollection';
 import { LocalCollection } from './LocalCollection';
-import { Where, not } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * An in-memory mutable collection. Element uniqueness is checked using value equality (`===` operator).

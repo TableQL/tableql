@@ -1,5 +1,5 @@
 import { Collection } from './Collection';
-import { Where } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * A type of collection providing mutation methods.

@@ -5,4 +5,4 @@ export * from './ForwardingMutableCollection';
 export * from './LocalCollection';
 export * from './LocalMutableCollection';
 export * from './MutableCollection';
-export * from './Where';
+export * from '@tableql/where';

@@ -1,6 +1,6 @@
 .vscode
-npm-debug.log
-
-dist
-node_modules
 coverage
+node_modules
+packages/*/lib
+lerna-debug.log
+npm-debug.log

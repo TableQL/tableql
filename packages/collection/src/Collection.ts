@@ -1,4 +1,4 @@
-import { Where } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * Represents a group of elements.

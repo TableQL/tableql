@@ -1,6 +1,6 @@
 import { MutableCollection } from './MutableCollection';
 import { ForwardingCollection } from './ForwardingCollection';
-import { Where } from './Where';
+import { Where } from '@tableql/where';
 
 /**
  * A mutable collection that forwards all its method calls to another mutable collection.
